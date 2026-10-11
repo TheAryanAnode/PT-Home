@@ -18,7 +18,7 @@ export function SettingsPage() {
     <div className="page">
       <header>
         <p className="kicker">Settings</p>
-        <h1>How Motion is set up</h1>
+        <h1>How PT@Home is set up</h1>
       </header>
       <section className="sticker">
         <h2>Who is looking</h2>

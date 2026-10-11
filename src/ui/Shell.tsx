@@ -38,9 +38,9 @@ export function Shell() {
     <div className="app-shell">
       <aside className="nav-side">
         <Link to={mode === 'patient' ? '/' : '/clinician'} className="brand">
-          <span className="brand-mark">M</span>
+          <span className="brand-mark">PT</span>
           <span>
-            <strong>Motion</strong>
+            <strong>PT@Home</strong>
             <small>{mode === 'patient' ? 'Today’s therapy' : 'Clinician view'}</small>
           </span>
         </Link>
@@ -89,7 +89,7 @@ function ModeSwitch() {
   const mode = useRehab((state) => state.viewerMode)
   const setViewerMode = useRehab((state) => state.setViewerMode)
   return (
-    <div className="mode-switch" role="group" aria-label="Who is using Motion">
+    <div className="mode-switch" role="group" aria-label="Who is using PT@Home">
       <button type="button" className={mode === 'patient' ? 'on' : ''} onClick={() => setViewerMode('patient')}>
         Patient
       </button>

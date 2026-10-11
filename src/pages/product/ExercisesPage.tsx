@@ -29,7 +29,7 @@ export function ExercisesPage() {
         <div className="heading-row">
           <p className="kicker">Exercises</p>
           <InfoTip label="Who these are for">
-              <p>Demos cover arm and leg rehab after stroke, Parkinson’s, frozen shoulder, rotator-cuff work, tendon pain, arthritis, and fracture or post-op recovery. Motion is a practice guide, not a diagnosis or a substitute for a clinician.</p>
+              <p>Demos cover arm and leg rehab after stroke, Parkinson’s, frozen shoulder, rotator-cuff work, tendon pain, arthritis, and fracture or post-op recovery. PT@Home is a practice guide, not a diagnosis or a substitute for a clinician.</p>
           </InfoTip>
         </div>
         <h1>{mode === 'clinician' ? 'Library' : 'Practice library'}</h1>
