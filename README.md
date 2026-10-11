@@ -1,6 +1,6 @@
-#Slide Deck: https://docs.google.com/presentation/d/12DSv37uStMgmGzsrUS1mq6dbV5ZvISJx4FvRg3ZgBZs/edit?usp=sharing
+Slide Deck: https://docs.google.com/presentation/d/12DSv37uStMgmGzsrUS1mq6dbV5ZvISJx4FvRg3ZgBZs/edit?usp=sharing
 
-#Demo Link: https://youtu.be/lMsiwaoMKDI
+Demo Link: https://youtu.be/lMsiwaoMKDI
 
 
 # Motion rehab twin
